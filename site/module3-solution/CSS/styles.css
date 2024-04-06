@@ -1,9 +1,130 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 16px;
+  color: #fff;
+  background-color: #496A81;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+/**HEADER**/
+#header-nav{
+  background-color: #2B3A67;
+  border-radius: 0;
+  border: 0;
+  clear: both;
+}
+
+
+.navbar-brand{
+  padding-top: 15px;
+}
+
+.navbar-brand h1{
+  position: relative;
+  color: whitesmoke;
+  margin: 0;
+  font-family: "Montserrat"; sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+  color: #B3AF8F;
+}
+
+
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 100 to 900
 
 .montserrat-<uniquifier> {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 100;
   font-style: normal;
 }
+
+
+h2{
+  text-align: center;
+  font-size: 1.4em;
+}
+
+li{
+  list-style-type: none;
+  background-color: #66999B;
+}
+
+li h3{
+  text-align: center;
+  font-size: 1.2em;
+}
+
+
+.navbar-toggle{
+  position: relative;
+  float: right;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  background-color: #B3AF8F;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.navbar-toggle:focus{
+  outline:0;
+}
+.navbar-toggle .icon-bar{
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+}
+.navbar-toggle .icon-bar + .icon-bar {
+  margin-top: 4px;
+}
+
+
+
+
+
+}@media (min-width: 992px) {
+  .column-lg-4 {
+      float: left;
+      width: 33.33%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .colmn-md-6 {
+      float: left;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;}
+        .navbar > .container .navbar-brand,
+        .navbar > .container-fluid .navbar-brand{
+          margin-left: -15px;
+  }
+  .colmn-md-12 {
+      float: left;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .colmn-sm-12 {
+      float: left;
+      width: 100%;
+  }
