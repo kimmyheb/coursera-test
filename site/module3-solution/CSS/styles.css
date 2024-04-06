@@ -25,7 +25,7 @@ body {
 
 .navbar-brand h1 {
   position: initial;
-  padding-top: 10px;
+  padding-top: auto;
   padding-right: 15px;
   color: whitesmoke;
   margin: 0;
@@ -60,13 +60,17 @@ h2 {
   margin-top: -10px;
   margin-left: 45px;
   margin-right: 45px;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
   width: auto;
-  height: 1000px;
+  height: auto;
   padding: 5px;
   text-align: center;
   font-family: "Montserrat", sans-serif;
 }
+
+.container-fluid {
+  max-height: 1000px;
+  overflow-y: auto; 
 
 li h3 {
   text-align: center;
