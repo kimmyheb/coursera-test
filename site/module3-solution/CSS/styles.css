@@ -59,19 +59,21 @@ h2{
   font-size: 1.4em;
   color: #F2EFEA;
   font-weight: bold;
-  margin-top: 0%;
-  padding-bottom: 5%;
+  margin-top: 1%;
+  padding-bottom: 1%;
 
 }
 
 #item li{
   list-style-type: none;
   background-color: #66999B;
+  margin-top: -10;
   margin-left: 45px;
   margin-right: 45px;
   margin-bottom: 25px;
   width: auto;
   padding: 5px;
+  text-align: center;
 }
 
 li h3{
