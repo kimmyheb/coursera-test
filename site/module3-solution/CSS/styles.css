@@ -24,15 +24,19 @@ body {
 }
 
 .navbar-brand h1 {
-  position: relative;
+  position: initial;
+  padding-top: 15px;
+  padding-right: 15px;
   color: whitesmoke;
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.5em;
+  font-size: 1.75em;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
-  margin-top: 0;
   line-height: 0.75;
+  text-align: left;
+  display: flex;
+  clear: both;
 }
 
 .navbar-brand a:hover,
@@ -100,7 +104,7 @@ li h3 {
 }
 
 #nav-list {
-  margin-top: 10px;
+  margin-top: 0;
 }
 
 #nav-list a {
@@ -108,12 +112,25 @@ li h3 {
 }
 
 #nav-list a:hover {
-  color: #496a81;
+  color: whitesmoke;
 }
 
 #nav-list a span {
   font-family: "Montserrat", sans-serif;
   font-size: 1.5em;
+}
+
+#myNavbar li{
+  position: end;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5em;
+  margin-top: 0;
+  line-height: 0.75;
+}
+
+button:hover {
+  color:whitesmoke
 }
 
 @media (min-width: 992px) {
